@@ -6,7 +6,7 @@ when {
 branch 'master'
 }
 steps {
-echo 'Deploy master to stage'
+echo 'Deploy  master to stage'
 
 }
 			}
