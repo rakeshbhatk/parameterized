@@ -6,7 +6,7 @@ string(name: 'branch', defaultValue: 'dev', description: 'Branch selected')
 stages {
 	stage ('Deploy stage') {
 when {
-branch 'master'
+branch 'dev'
 }
 steps {
 echo 'Deploy master to stage'
