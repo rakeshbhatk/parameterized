@@ -1,7 +1,7 @@
 pipeline {
 agent any
 parameters {
-string(name: 'user', defaultValue: 'dev', description: 'Branch selected')
+string(name: 'branch', defaultValue: 'dev', description: 'Branch selected')
 }
 stages {
 stage('Trigger pipeline') {
